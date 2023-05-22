@@ -1,0 +1,38 @@
+{
+  "name": "service",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 8000",
+    "build": "next build",
+    "start": "next start --port 8000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "debug": "^4.3.4",
+    "framer-motion": "^10.12.4",
+    "iron-session": "^6.3.1",
+    "js-cookie": "^3.0.5",
+    "next": "^13.2.4",
+    "next-auth": "^4.22.1",
+    "next-iron-session": "^4.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-intersection-observer": "^9.4.3",
+    "react-modal": "^3.16.1",
+    "react-responsive-modal": "^6.4.1",
+    "react-router-dom": "^6.11.1",
+    "react-slick": "^0.29.0",
+    "react-stick": "^5.0.3",
+    "reactstrap": "^9.1.9",
+    "slick-carousel": "^1.8.1",
+    "typeface-dosis": "^1.1.13"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  }
+}
